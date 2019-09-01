@@ -3,7 +3,9 @@
     <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0"> 
         <!-- 标题栏区 -->
         <HorizontalLayout height="32" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">    
-            <VerticalLayout /> <!-- 占空位，占据左边所有的空位-->
+            <VerticalLayout> <!-- 占空位，占据左边所有的空位-->
+				<Label name="title" pos="0,0,200,20" text="自动化测试" />
+			</VerticalLayout>   
             <VerticalLayout width="77"> <!-- 右边三个控件所占的宽度-->
                 <Button name="minbtn"   tooltip="最小化" float="true" pos="0,5,22,24"  width="23" normalimage=" file='SysBtn\min.jpg' " hotimage=" file='SysBtn\MinFocus.bmp' " pushedimage=" file='SysBtn\MinFocus.bmp' "/>
                 <Button name="maxbtn"   tooltip="最大化" float="true" pos="22,5,44,24" width="23" normalimage=" file='SysBtn\max.jpg' " hotimage=" file='SysBtn\MinFocus.bmp' " pushedimage=" file='SysBtn\MinFocus.bmp' " />
@@ -14,7 +16,7 @@
         
         <!-- 客户区 -->
         <HorizontalLayout>
-       		 <Button name="btnHello" text="Hello World"/>
+       		 <!--Button name="btnHello" text="Hello World"/-->
    		</HorizontalLayout>
     </VerticalLayout>
 </Window>

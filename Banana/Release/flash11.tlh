@@ -1,9 +1,9 @@
-﻿// Created by Microsoft (R) C/C++ Compiler Version 14.20.27508.1 (515faca8).
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.22.27905.0 (fa85b748).
 //
-// F:\CEF_Test\CEFWebkitBrowser\Banana\Release\flash11.tlh
+// E:\Github\Duilib_CEF\Banana\Release\flash11.tlh
 //
 // C++ source equivalent of Win32 type library ..\Utils/Flash11.tlb
-// compiler-generated file created 08/30/19 at 14:51:59 - DO NOT EDIT!
+// compiler-generated file created 09/01/19 at 23:52:23 - DO NOT EDIT!
 
 #pragma once
 #pragma pack(push, 8)

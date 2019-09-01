@@ -27,10 +27,19 @@
     <ClInclude Include="Banana.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="clientapp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Banana.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clientapp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdAfx.h">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
