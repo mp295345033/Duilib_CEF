@@ -12,7 +12,7 @@
 
 #define MAX_LOADSTRING 100
 using namespace DuiLib;
-
+//
 
 
 #ifdef _DEBUG
